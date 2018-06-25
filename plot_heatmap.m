@@ -18,8 +18,6 @@ function [group_entval, group_map] = plot_heatmap(x, y, screenX, screenY, sigma,
 %only one column of data is entered)
 %Updated 5/10/2018 by franchak@gmail.com
 
-%
-nargin = 0;
 
 if nargin < 1 %parameters for testing
     x = randn(100,1) * 5 + 5;
